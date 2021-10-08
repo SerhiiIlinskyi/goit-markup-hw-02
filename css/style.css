@@ -17,16 +17,17 @@
 }
 
 .Web-Studio1 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 0.84;
   position: absolute;
   width: 145px;
   height: 31px;
   left: 215px;
   top: 24px;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
+
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -42,6 +43,12 @@
   left: 453px;
   top: 32px;
 }**/
+.color-block {
+  color: black;
+}
+.color-block1 {
+  color: #ffffff;
+}
 .Studio {
   font-family: Roboto;
   position: absolute;
@@ -465,6 +472,7 @@
 /**подвал**/
 .footer {
   font-family: Roboto;
+  text-decoration: none;
   position: absolute;
   width: 1600px;
   height: 252px;
