@@ -21,20 +21,13 @@
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 0.84;
   position: absolute;
   width: 145px;
   height: 31px;
   left: 215px;
   top: 24px;
-
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
 }
-.accent {
-  color: #2196f3;
-}
+
 /**.drei-cnopka {
   font-family: Roboto;
   position: absolute;
