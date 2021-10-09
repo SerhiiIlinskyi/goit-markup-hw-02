@@ -16,7 +16,7 @@
   top: 0px;
 }
 
-.Web-Studio1 {
+.web-studio1 {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -42,7 +42,7 @@
 .color-block1 {
   color: #ffffff;
 }
-.Studio {
+.studio {
   font-family: Roboto;
   position: absolute;
   width: 49px;
@@ -50,7 +50,7 @@
   left: 453px;
   top: 32px;
 }
-.Portfolio {
+.portfolio {
   font-family: Roboto;
   position: absolute;
   width: 77px;
@@ -58,7 +58,7 @@
   left: 552px;
   top: 32px;
 }
-.Contacts {
+.contacts {
   font-family: Roboto;
   position: absolute;
   width: 68px;
@@ -74,7 +74,7 @@
   left: 1078px;
   top: 32px;
 }
-.tel38096111111 {
+.tel {
   font-family: Roboto;
   position: absolute;
   width: 122px;
@@ -135,7 +135,7 @@
   top: 774px;
 }**/
 
-.block1 {
+.block-a {
   font-family: Roboto;
   position: absolute;
   width: 270px;
@@ -143,7 +143,7 @@
   left: 215px;
   top: 774px;
 }
-/**.block11 {
+/**.block-aa {
   position: absolute;
   width: 270px;
   height: 16px;
@@ -151,7 +151,7 @@
   top: 774px;
 }
 
-.block111 {
+.block-aaa {
   position: absolute;
   width: 270px;
   height: 75px;
@@ -159,7 +159,7 @@
   top: 800px;
 }**/
 
-.block2 {
+.block-b {
   font-family: Roboto;
   position: absolute;
   width: 270px;
@@ -167,14 +167,14 @@
   left: 515px;
   top: 774px;
 }
-/**.block22 {
+/**.block-bb {
   position: absolute;
   width: 270px;
   height: 16px;
   left: 515px;
   top: 774px;
 }
-.block222 {
+.block-bbb {
   position: absolute;
   width: 270px;
   height: 75px;
@@ -182,7 +182,7 @@
   top: 800px;
 }**/
 
-.block3 {
+.block-c {
   font-family: Roboto;
   position: absolute;
   width: 270px;
@@ -190,21 +190,21 @@
   left: 815px;
   top: 774px;
 }
-/**.block33 {
+/**.block-cc {
   position: absolute;
   width: 270px;
   height: 16px;
   left: 815px;
   top: 774px;
 }
-.block333 {
+.block-ccc {
   position: absolute;
   width: 270px;
   height: 75px;
   left: 815px;
   top: 800px;
 }**/
-.block4 {
+.block-d {
   font-family: Roboto;
   position: absolute;
   width: 270px;
@@ -212,14 +212,14 @@
   left: 1115px;
   top: 774px;
 }
-/**.block44 {
+/**.block-dd {
   position: absolute;
   width: 270px;
   height: 16px;
   left: 1115px;
   top: 774px;
 }
-.block444 {
+.block-ddd {
   position: absolute;
   width: 270px;
   height: 75px;
@@ -235,7 +235,7 @@
   left: 215px;
   top: 969px;
 }**/
-.how1 {
+.how-a {
   font-family: Roboto;
   position: absolute;
   width: 376px;
@@ -244,21 +244,21 @@
   top: 969px;
 }
 
-.imgbox1 {
+.imgbox-a {
   position: absolute;
   width: 370px;
   height: 294px;
   left: 215px;
   top: 1061px;
 }
-.imgbox2 {
+.imgbox-b {
   position: absolute;
   width: 370px;
   height: 294px;
   left: 615px;
   top: 1061px;
 }
-.imgbox3 {
+.imgbox-c {
   position: absolute;
   width: 370px;
   height: 294px;
@@ -293,7 +293,7 @@
   top: 1635px;
 }**/
 
-.Igor {
+.igor {
   font-family: Roboto;
   position: absolute;
   width: 270px;
@@ -302,7 +302,7 @@
   top: 1635px;
 }
 
-.Olha {
+.olha {
   font-family: Roboto;
   position: absolute;
   width: 270px;
@@ -310,7 +310,7 @@
   left: 572px;
   top: 1635px;
 }
-.Nicola {
+.nicola {
   font-family: Roboto;
   position: absolute;
   width: 270px;
@@ -318,7 +318,7 @@
   left: 872px;
   top: 1635px;
 }
-.Mihail {
+.mihail {
   font-family: Roboto;
   position: absolute;
   width: 270px;
@@ -351,7 +351,7 @@
   background: #2196f3;
 }
 
-.Web-site {
+.web-site {
   position: absolute;
   width: 128px;
   height: 38px;
@@ -361,7 +361,8 @@
   background: * * #f5f4fa;
   border-radius: 4px;
 }
-.Applications {
+
+.applications {
   position: absolute;
   width: 145px;
   height: 38px;
@@ -372,7 +373,7 @@
   border-radius: 4px;
 }
 
-.Disain {
+.disain {
   position: absolute;
   width: 103px;
   height: 38px;
@@ -382,7 +383,7 @@
   background: #f5f4fa;
   border-radius: 4px;
 }
-.Marketing {
+.marketing {
   position: absolute;
   width: 130px;
   height: 38px;
@@ -393,24 +394,21 @@
   border-radius: 4px;
 }
 
-/**foto**/
-
-/**erste**/
-.Technokryak {
+.technokryak {
   position: absolute;
   width: 370px;
   height: 404px;
   left: 215px;
   top: 262px;
 }
-.NewOrleanvsGoldenStar {
+.new-orleanvs-golden-star {
   position: absolute;
   width: 370px;
   height: 294px;
   left: 615px;
   top: 262px;
 }
-.Seafood {
+.sea-food {
   position: absolute;
   width: 370px;
   height: 294px;
@@ -418,44 +416,43 @@
   top: 262px;
 }
 
-/**zweite**/
-.Prime {
+.prime {
   position: absolute;
   width: 370px;
   height: 294px;
   left: 215px;
   top: 696px;
 }
-.Boxes {
+.boxes {
   position: absolute;
   width: 370px;
   height: 294px;
   left: 615px;
   top: 696px;
 }
-.Borders {
+.borders {
   position: absolute;
   width: 370px;
   height: 294px;
   left: 1015px;
   top: 696px;
 }
-/**dritte**/
-.LimitedEdition {
+
+.limited-edition {
   position: absolute;
   width: 370px;
   height: 294px;
   left: 215px;
   top: 1130px;
 }
-.LAB {
+.lab {
   position: absolute;
   width: 370px;
   height: 294px;
   left: 615px;
   top: 1130px;
 }
-.Business {
+.business {
   position: absolute;
   width: 370px;
   height: 294px;
@@ -474,6 +471,6 @@
   background: #2f303a;
 }
 
-.Web-Studio {
+.web-studio {
   color: #ffffff;
 }
