@@ -14,18 +14,18 @@ body {
   --brand-color-name: #ffffff;
 }
 /**изменения цвета кнопки**/
-.header .studio:hover,
-.header .studio:focus,
-.header .portfolio:hover,
-.header .portfolio:focus,
-.header .contacts:hover,
-.header .contacts:focus,
-.header .header-https:hover,
-.header .header-https:focus,
-.header .header-tel:hover,
-.header .header-tel:focus {
-  background-color: cadetblue;
-  color: var(--brand-color-name);
+.header .studio .color-block:hover,
+.header .studio .color-block:focus,
+.header .portfolio .color-block:hover,
+.header .portfolio .color-block:focus,
+.header .contacts .color-block:hover,
+.header .contacts .color-block:focus,
+.header .header-https .color-block:hover,
+.header .header-https .color-block:focus,
+.header .header-tel .color-block:hover,
+.header .header-tel .color-block:focus {
+  background-color: var(--brand-color-name);
+  color: var(--brand-color-basic);
 }
 
 .cap .to-order:hover,
@@ -57,7 +57,7 @@ body {
 .poster .poster-text:hover,
 .poster .poster-text:focus {
   background-color: cornflowerblue;
-  color: white;
+  color: var(--brand-color-name);
 }
 
 .footer .adress-adress:hover,
@@ -67,8 +67,9 @@ body {
 .footer .adress-tel:hover,
 .footer .adress-tel:focus {
   background-color: darkcyan;
-  color: var(--brand-color-name);
+  color: var(--brand-color-title);
 }
+
 /**верхняя линия**/
 .header {
 }
@@ -84,35 +85,53 @@ body {
 
 .drei-knopka {
 }
+
+.color-block {
+  color: var(--brand-color-title);
+}
+
 .studio {
-  font-family: ;
-  font-size: ;
-  line-height: ;
-  font-weight: ;
-  color: var(--brand-color-basic);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  /**color: var(--brand-color-basic);**/
 }
 .portfolio {
-  font-family: ;
-  font-size: ;
-  line-height: ;
-  font-weight: ;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
   color: ;
 }
 .contacts {
-  font-family: ;
-  font-size: ;
-  line-height: ;
-  font-weight: ;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
   color: ;
 }
 .zwei-knopka {
   color: ;
 }
 .header-https {
-  color: var(--brand-color-basic);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  /**color: var(--brand-color-basic);**/
 }
 .header-tel {
-  color: var(--brand-color-text);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  /**color: var(--brand-color-text);**/
 }
 
 /**index**/
@@ -159,7 +178,6 @@ body {
 .how-a {
   font-size: 36px;
   line-height: 1.17;
-  color: ;
   font-weight: 700;
 }
 .imgbox-a {
@@ -181,7 +199,7 @@ body {
 }
 .name-img {
   font-size: 16px;
-  line-height: 1.172;
+  line-height: 1.17;
   color: var(--brand-color-title);
   font-weight: 500;
 }
@@ -260,4 +278,7 @@ body {
 }
 .footer-studio {
   color: #ffffff;
+}
+.adress {
+  color: var(--brand-color-name);
 }
