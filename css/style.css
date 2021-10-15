@@ -1,10 +1,3 @@
-body {
-  font-family: Roboto;
-  color: var(--brand-color-title);
-  font-size: 14px;
-  line-height: 1, 72;
-  background-color: #ffffff;
-}
 /**основные цвета**/
 :root {
   --brand-color-title: #212121;
@@ -14,60 +7,42 @@ body {
   --brand-color-name: #ffffff;
 }
 /**изменения цвета кнопки**/
-.header .studio .color-block:hover,
-.header .studio .color-block:focus,
-.header .portfolio .color-block:hover,
-.header .portfolio .color-block:focus,
-.header .contacts .color-block:hover,
-.header .contacts .color-block:focus,
-.header .header-https .color-block:hover,
-.header .header-https .color-block:focus,
-.header .header-tel .color-block:hover,
-.header .header-tel .color-block:focus {
+.header .color-block:hover,
+.header .color-block:focus {
   background-color: var(--brand-color-name);
   color: var(--brand-color-basic);
 }
 
-.cap .to-order:hover,
-.cap .to-order:focus {
-  background-color: teal;
-  color: var(--brand-color-title);
-}
-
-.knopka .knopka-all-a:hover,
-.knopka .knopka-all-a:focus,
-.knopka .knopka-web-site-a:hover,
-.knopka .knopka-web-site-a:focus,
-.knopka .knopka-applications-a:hover,
-.knopka .knopka-applications-a:focus,
-.knopka .knopka-disain-a:hover,
-.knopka .knopka-disain-a:focus,
-.knopka .knopka-marketing-a:hover,
-.knopka .knopka-marketing-a:focus {
-  background-color: teal;
+.knopka .knopka-a:hover,
+.knopka .knopka-a:focus {
+  background-color: var(--brand-color-basic);
   color: var(--brand-color-name);
 }
 
 .poster .poster-name:hover,
 .poster .poster-name:focus {
-  background-color: chocolate;
+  background-color: var(--brand-color-basic);
   color: var(--brand-color-name);
 }
 
 .poster .poster-text:hover,
 .poster .poster-text:focus {
-  background-color: cornflowerblue;
+  background-color: var(--brand-color-text);
   color: var(--brand-color-name);
 }
 
-.footer .adress-adress:hover,
-.footer .adress-adress:focus,
-.footer .adress-https:hover,
-.footer .adress-https:focus,
-.footer .adress-tel:hover,
-.footer .adress-tel:focus {
-  background-color: darkcyan;
+.footer .footer-adress:hover,
+.footer .footer-adress:focus {
+  background-color: var(--brand-color-basic);
+  color: var(--brand-color-name);
+}
+
+body {
+  font-family: Roboto;
   color: var(--brand-color-title);
+  font-size: 14px;
+  line-height: 1.72;
+  background-color: #ffffff;
 }
 
 /**верхняя линия**/
@@ -78,6 +53,7 @@ body {
   font-size: 26px;
   line-height: 1.17;
   font-weight: 700;
+  color: var(--brand-color-basic);
 }
 .heder-web {
   color: var(--brand-color-title);
@@ -91,25 +67,19 @@ body {
 }
 
 .studio {
-  font-family: Roboto;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.17;
   font-weight: 500;
   /**color: var(--brand-color-basic);**/
 }
 .portfolio {
-  font-family: Roboto;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.17;
   font-weight: 500;
   color: ;
 }
 .contacts {
-  font-family: Roboto;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.17;
   font-weight: 500;
   color: ;
@@ -118,17 +88,13 @@ body {
   color: ;
 }
 .header-https {
-  font-family: Roboto;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.17;
   font-weight: 500;
   /**color: var(--brand-color-basic);**/
 }
 .header-tel {
-  font-family: Roboto;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.17;
   font-weight: 500;
   /**color: var(--brand-color-text);**/
@@ -155,8 +121,7 @@ body {
 }
 
 /**особенности**/
-.peculiarities1 {
-}
+
 .block-name {
   font-weight: 700;
 }
@@ -164,48 +129,30 @@ body {
   font-weight: 400;
   color: var(--brand-color-text);
 }
-.block-a {
-}
-.block-b {
-}
-.block-c {
-}
-.block-d {
-}
+
 /**Чем мы занимаемся**/
-.how {
-}
+
 .how-a {
   font-size: 36px;
   line-height: 1.17;
   font-weight: 700;
 }
-.imgbox-a {
-}
-.imgbox-b {
-}
-.imgbox-c {
-}
-/**Наша команда**/
-.ourteam {
-}
+
 .our {
   font-size: 36px;
-  line-height: 1.172;
+  line-height: 1.17;
   color: var(--brand-color-title);
   font-weight: 700;
 }
-.fotogrupp {
-}
+
 .name-img {
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.2;
   color: var(--brand-color-title);
   font-weight: 500;
 }
 .name-specialitat {
   font-size: 16px;
-  line-height: 1.72;
   color: var(--brand-color-text);
   font-weight: 400;
 }
@@ -214,20 +161,25 @@ body {
 /**knopka**/
 .knopka {
   font-size: 16px;
-  line-height: 1.63;
+  line-height: 1.6;
   color: var(--brand-color-title);
   font-weight: 500;
   cursor: pointer;
 }
 .knopka-all {
+  cursor: pointer;
 }
-.knopka-web-site {
+.knopka-web-site-a {
+  cursor: pointer;
 }
-.knopka-applications {
+.knopka-applications-a {
+  cursor: pointer;
 }
-.knopka-disain {
+.knopka-disain-a {
+  cursor: pointer;
 }
-.knopka-marketing {
+.knopka-marketing-a {
+  cursor: pointer;
 }
 .poster {
 }
@@ -239,28 +191,11 @@ body {
 }
 .poster-text {
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.9;
   color: var(--brand-color-text);
   font-weight: 400;
 }
-.poster-technokryak {
-}
-.poster-new-orleanvs {
-}
-.poster-sea-food {
-}
-.poster-prime {
-}
-.poster-boxes {
-}
-.poster-borders {
-}
-.poster-limited-edition {
-}
-.poster-lab {
-}
-.poster-business {
-}
+
 /**подвал**/
 .footer {
   background-color: var(--brand-color-substrate);
@@ -272,12 +207,12 @@ body {
 .web-studio {
   font-family: Raleway;
   font-size: 26px;
-  line-height: 1.192;
+  line-height: 1.2;
   color: var(--brand-color-basic);
   font-weight: 700;
 }
 .footer-studio {
-  color: #ffffff;
+  color: var(--brand-color-name);
 }
 .adress {
   color: var(--brand-color-name);
