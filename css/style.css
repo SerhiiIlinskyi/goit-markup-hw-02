@@ -13,26 +13,8 @@
   color: var(--brand-color-basic);
 }
 
-.knopka .knopka-a:hover,
-.knopka .knopka-a:focus {
-  background-color: var(--brand-color-basic);
-  color: var(--brand-color-name);
-}
-
-.poster .poster-name:hover,
-.poster .poster-name:focus {
-  background-color: var(--brand-color-basic);
-  color: var(--brand-color-name);
-}
-
-.poster .poster-text:hover,
-.poster .poster-text:focus {
-  background-color: var(--brand-color-text);
-  color: var(--brand-color-name);
-}
-
-.footer .footer-adress:hover,
-.footer .footer-adress:focus {
+.button .button-alle:hover,
+.button .button-alle:focus {
   background-color: var(--brand-color-basic);
   color: var(--brand-color-name);
 }
@@ -43,23 +25,25 @@ body {
   font-size: 14px;
   line-height: 1.72;
   background-color: #ffffff;
+  letter-spacing: 0.03em;
 }
 
 /**верхняя линия**/
 .header {
 }
-.web-studio1 {
+.web-studio {
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.17;
-  font-weight: 700;
   color: var(--brand-color-basic);
+  font-weight: 700;
+  text-decoration: none;
 }
 .heder-web {
   color: var(--brand-color-title);
 }
-
-.drei-knopka {
+.footer-studio {
+  color: var(--brand-color-name);
 }
 
 .color-block {
@@ -69,35 +53,30 @@ body {
 .studio {
   font-weight: 500;
   line-height: 1.17;
-  font-weight: 500;
   /**color: var(--brand-color-basic);**/
 }
 .portfolio {
   font-weight: 500;
   line-height: 1.17;
-  font-weight: 500;
-  color: ;
+  color: var(--brand-color-title);
 }
 .contacts {
   font-weight: 500;
   line-height: 1.17;
-  font-weight: 500;
-  color: ;
+  color: var(--brand-color-title);
 }
 .zwei-knopka {
-  color: ;
+  color: var(--brand-color-title);
 }
 .header-https {
   font-weight: 500;
   line-height: 1.17;
-  font-weight: 500;
-  /**color: var(--brand-color-basic);**/
+  color: var(--brand-color-title);
 }
 .header-tel {
   font-weight: 500;
   line-height: 1.17;
-  font-weight: 500;
-  /**color: var(--brand-color-text);**/
+  color: var(--brand-color-title);
 }
 
 /**index**/
@@ -158,42 +137,63 @@ body {
 }
 
 /**portfolio**/
-/**knopka**/
-.knopka {
+/**button**/
+.button {
   font-size: 16px;
   line-height: 1.6;
   color: var(--brand-color-title);
   font-weight: 500;
-  cursor: pointer;
 }
-.knopka-all {
+
+.button-a {
+  border: none;
   cursor: pointer;
+  height: 38px;
+  width: 73px;
 }
-.knopka-web-site-a {
+
+.button-b {
+  border: none;
   cursor: pointer;
+  height: 38px;
+  width: 128px;
 }
-.knopka-applications-a {
+.button-c {
+  border: none;
   cursor: pointer;
+  height: 38px;
+  width: 145px;
 }
-.knopka-disain-a {
+.button-d {
+  border: none;
   cursor: pointer;
+  height: 38px;
+  width: 103px;
 }
-.knopka-marketing-a {
+.button-e {
+  border: none;
   cursor: pointer;
+  height: 38px;
+  width: 130px;
 }
 .poster {
+}
+.poster-foto {
+  text-decoration: none;
 }
 .poster-name {
   font-size: 18px;
   line-height: 2;
   color: var(--brand-color-title);
   font-weight: 700;
+  cursor: pointer;
 }
 .poster-text {
   font-size: 16px;
   line-height: 1.9;
   color: var(--brand-color-text);
   font-weight: 400;
+  cursor: pointer;
 }
 
 /**подвал**/
@@ -202,18 +202,27 @@ body {
   font-weight: 400;
 }
 .dress-adress {
-  color: rgba(255, 255, 255, 1);
-}
-.web-studio {
-  font-family: Raleway;
-  font-size: 26px;
-  line-height: 1.2;
-  color: var(--brand-color-basic);
-  font-weight: 700;
-}
-.footer-studio {
   color: var(--brand-color-name);
 }
+
 .adress {
   color: var(--brand-color-name);
+}
+.footer-adress {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--brand-color-name);
+  text-decoration: none;
+}
+.footer-httpsinfom {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--brand-color-text);
+  text-decoration: none;
+}
+.footer-tel {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--brand-color-text);
+  text-decoration: none;
 }
