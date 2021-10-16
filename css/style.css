@@ -19,6 +19,10 @@
   color: var(--brand-color-name);
 }
 
+.adress .footer-a:hover,
+.adress .footer-a:focus {
+  color: var(--brand-color-name);
+}
 body {
   font-family: Roboto;
   color: var(--brand-color-title);
@@ -211,7 +215,7 @@ body {
 .footer-adress {
   font-style: normal;
   font-weight: 400;
-  color: var(--brand-color-name);
+  color: var(--brand-color-text);
   text-decoration: none;
 }
 .footer-httpsinfom {
